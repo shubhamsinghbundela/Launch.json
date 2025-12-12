@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+        {
+            "name": "Run API",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/api/server.js",
+            "env": {
+              "PORT": "3000",
+              "ENV": "DEV"
+            }
+        },
+    ]
+}
